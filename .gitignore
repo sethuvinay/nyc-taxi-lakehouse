@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Spark / local run artifacts
+local/data/
+local/output/
+spark-warehouse/
+derby.log
+.metastore_db/
+
+# Delta / Parquet data (never commit data files)
+*.parquet
+*.delta/
+_delta_log/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store

@@ -1,0 +1,2 @@
+pyspark>=3.4
+delta-spark>=2.4  # for local Delta Lake experiments; Databricks Runtime includes Delta natively
